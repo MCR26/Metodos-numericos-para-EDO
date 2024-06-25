@@ -1,0 +1,14 @@
+# mkdocs.yml
+site_name: Métodos numericos en el calculo de EDO
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Métodos de cálculo: index.md
+  - Guia de uso: how-to-guides.md
+  - Referencias: reference.md
+  - Explicacion: explanation.md
